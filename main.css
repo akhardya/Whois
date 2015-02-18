@@ -1,0 +1,61 @@
+@charset 'UTF-8';
+/*general settings*/
+html{
+	font:normal normal 62.5% futura,sans-serif;
+
+}
+
+body,header,nav,input,ul,li,footer,aside,h1{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style: none;
+}
+a,a:link,a:focus,a:hover,a:active{
+	border:none 0;
+	color:#333;
+	text-decoration: none;
+}	
+img {
+	border:0;
+	vertical-align: bottom;
+}
+#wrapper{
+	width:80%;
+	margin:0 auto;
+}
+
+/* header*/
+nav>aside,nav>ul{
+	display:inline-block;
+}
+header>nav{
+	padding:2em 0;
+}
+header>nav>aside{
+	position:relative;
+	right:0;
+}
+#menu>li{
+	display:inline-block;
+}
+ #menu a{
+ 	display:block;
+ 	padding:1em;
+ 	font-variant: small-caps;
+ 	font-size: 1.5em;
+ 	font-weight: bold;
+ }
+h1{
+	font-size:2.4em;
+	font-variant: small-caps;
+
+}
+#playground li{
+	display:inline-block;
+	margin:1em 2em 0;
+
+}
+/************body**********/
+
